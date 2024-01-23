@@ -77,7 +77,16 @@ nav {
     margin-bottom: 30px;
 }
 
-.top-left {}
+.btn.hero-btn {
+    background: #F15D51;
+    color: #FFFDFA;
+    padding: 12px 32px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 4.375px;
+}
 
 .top-right {
     background: #00001A;
