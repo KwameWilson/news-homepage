@@ -59,8 +59,9 @@ nav {
 .hero-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
     max-width: 730px;
-    margin: 30px 0 72px;
+    margin-top: 30px;
 }
 
 .hero-grid h1 {
@@ -92,4 +93,34 @@ nav {
     background: #00001A;
     color: #FFFDFA;
     padding: 32px 24px;
+}
+
+.top-right h2 {
+    color: #E9AA52;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 34px;
+}
+
+.top-right h4 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+
+.top-right p {
+    padding-bottom: 29px;
+    border-bottom: 1px solid #5E607A;
+    color: #C5C6CE;
+    margin-bottom: 31px;
+}
+
+.top-right div:last-child p:last-of-type {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: 0;
 }
