@@ -139,3 +139,28 @@ nav {
     grid-template-columns: 1fr 2fr;
     grid-gap: 24px;
 }
+
+.captions h4 {
+    color: #C5C6CE;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 12px;
+}
+
+.captions h2 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 24px;
+    margin-bottom: 9px;
+}
+
+.captions p {
+    color: #5E607A;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
